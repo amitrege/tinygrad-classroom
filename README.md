@@ -1,4 +1,4 @@
-# Class 1: From Basics to Tiny Autograd
+# From Basics to Tiny Autograd
 
 This repo is a hands-on ML class app.
 
