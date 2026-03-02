@@ -8,8 +8,8 @@ It walks from very basic ideas (one neuron, one loss) to a tiny autograd engine,
 
 These are sample snapshots from the actual demo flow:
 
-![Single neuron stage demo](assets/demo/demo_single_neuron.png)
-![Two moons MLP stage demo](assets/demo/demo_mlp_moons.png)
+![App landing screen](assets/demo/ui_landing.png)
+![In-lesson UI screen](assets/demo/ui_stage.png)
 
 ## What You Get
 
