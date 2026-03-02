@@ -4,13 +4,6 @@ This repo is a hands-on ML class app.
 
 It walks from very basic ideas (one neuron, one loss) to a tiny autograd engine, then shows the same ideas in vectorized NumPy and a small MLP demo. The app is built with Streamlit, so you can teach or learn by clicking through each stage instead of jumping between notebooks.
 
-## Demo Preview
-
-These are sample snapshots from the actual demo flow:
-
-![App landing screen](assets/demo/ui_landing.png)
-![In-lesson UI screen](assets/demo/ui_stage.png)
-
 ## What You Get
 
 A guided lesson flow with 7 stages:
@@ -64,7 +57,6 @@ cd class1
 source .venv/bin/activate
 python run_quick_checks.py
 python -m unittest discover -s tests -v
-python make_hook_plots.py
 ```
 
 ## Handy Notes
