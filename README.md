@@ -11,6 +11,47 @@ These are sample snapshots from the actual demo flow:
 ![App landing screen](assets/demo/ui_landing.png)
 ![In-lesson UI screen](assets/demo/ui_stage.png)
 
+## Two Ways to Use This Repo
+
+### 1) Run the app locally (interactive lecture mode)
+
+If you want the full guided demo experience, run it locally.
+
+Main dependencies:
+
+- `streamlit` (the UI app)
+- `numpy` (math + arrays)
+- `matplotlib` (plots/visuals)
+- `torch` (CPU PyTorch, used in the NumPy -> PyTorch mirror stage)
+
+`./setup_env.sh` installs these for you and creates `.venv`.
+
+```bash
+cd class1
+./setup_env.sh
+./run_lecture.sh
+```
+
+### 2) Read the code directly on GitHub (no local setup)
+
+If you mostly care about the implementation, you can read straight from this repo in your browser.
+
+Start in `mlstack/`:
+
+- `autograd.py`: tiny Tensor/autograd core
+- `gradcheck.py`: finite-difference gradient checks
+- `manual_neuron.py`: scalar neuron + manual gradients
+- `nn.py`: tiny layers, activations, and optimizers
+- `train.py`: end-to-end training loops
+- `vectorization.py`: loop vs vectorized math transition
+- `datasets.py`: synthetic datasets used in demos
+- `visuals.py`: plotting helpers for decision surfaces/curves
+
+Then check:
+
+- `app.py`: full Streamlit lesson flow
+- `tests/`: unit tests for autograd and grad checks
+
 ## What You Get
 
 A guided lesson flow with 7 stages:
