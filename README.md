@@ -36,7 +36,11 @@ cd class1
 
 If you mostly care about the implementation, you can read straight from this repo in your browser.
 
-Start in `mlstack/`:
+Start here first:
+
+- `mlstack/README.md` (mental model + reading paths + file guide)
+
+Then open the modules in `mlstack/`:
 
 - `autograd.py`: tiny Tensor/autograd core
 - `gradcheck.py`: finite-difference gradient checks
