@@ -1,0 +1,16 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Local runtime/cache artifacts
+.cache/
+.streamlit_home/
+hook_plots/
